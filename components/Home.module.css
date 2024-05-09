@@ -1,0 +1,65 @@
+.main {
+  padding: 24px opx;
+  background: #f9fafb;
+  /* height: 100%; */
+  display: flex;
+  justify-content: center;
+  /* background-color: aqua; */
+}
+.content_container{
+ width: 90%;
+ max-width: 1280px;
+}
+
+.main button {
+  text-transform: none;
+}
+
+.main h1 {
+  color: #111928;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.hero {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.cardContentTitle{
+  height: 100px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .main {
+    padding: 24px 16px;
+  }
+  .content_container{
+width: 100%;
+  }
+
+  .main button {
+    width: 100%;
+  }
+
+  .main h1 {
+    color: #111928;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+  }
+
+  .hero {
+    flex-direction: column-reverse;
+    align-items: inherit;
+  }
+}

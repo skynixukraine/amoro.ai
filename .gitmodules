@@ -1,0 +1,3 @@
+[submodule "reiai"]
+	path = reiai
+	url = https://github.com/reilim888/reiai.git

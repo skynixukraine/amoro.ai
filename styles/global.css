@@ -1,0 +1,454 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+
+html,
+body,
+div#__next {
+  height: 100%;
+}
+
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  /* overflow-x: hidden; */
+  margin: 0;
+  padding: 0;
+}
+.customFont {
+  font-family: "SelaneWebSTTwenty", Georgia, "Times New Roman", Times, serif !important;
+}
+
+.btnLogin {
+  background-color: white !important;
+  color: #0f6937 !important;
+  border: 2px solid #0f6937 !important;
+  width: 9rem !important;
+  text-transform: none !important;
+}
+
+.btnTryForFree {
+  color: white !important;
+  margin: 10px !important;
+  width: 9rem !important;
+  text-transform: none !important;
+}
+
+.theme-select {
+  border: 2px solid #00000000;
+}
+
+.theme-select:hover {
+  border: 2px solid #0F6937;
+}
+
+.theme-selected {
+  border: 2px solid #0F6937;
+}
+
+@media (max-width: 767px) {
+  .blog-label {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog-title {
+    margin-block-start: 1em;
+    margin-block-end: 0 !important;
+    width: 100%;
+  }
+
+  .blog-button {
+    margin-block-start: 20px !important;
+    margin-block-end: 20px !important;
+    width: 100%;
+  }
+
+  .blog-button-link {
+    width: 100%;
+  }
+
+  .css-pdtg31-MuiButtonBase-root-MuiButton-root {
+    margin: 20px 0 20px 0 !important;
+  }
+
+  .css-1g1jtey-MuiGrid-root button {
+    width: 100%;
+  }
+
+  .css-yzi3ey button {
+    width: 100%;
+  }
+
+  .css-uzir1l-MuiGrid-root {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .css-1u7pgxb-MuiButtonBase-root-MuiButton-root {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+
+  .css-14u1h2s-MuiButtonBase-root-MuiButton-root {
+    width: 100%;
+  }
+
+  .css-rwe6vm-MuiButtonBase-root-MuiButton-root {
+    width: 100%;
+  }
+
+  .css-1qlrwag-MuiButtonBase-root-MuiButton-root {
+    width: 100%;
+  }
+
+  .MuiGrid-root .MuiGrid-item .css-13i4rnv-MuiGrid-root {
+    width: 100%;
+  }
+
+}
+
+.css-1j17f6r-MuiInputBase-root .MuiInputBase-input {
+  padding: 10px 14px !important;
+}
+
+.ql-toolbar.ql-snow {
+  border-radius: 8px 8px 0 0;
+}
+
+.ql-container.ql-snow {
+  border-radius: 0 0 8px 8px;
+  height: 150px;
+}
+
+/* .ql-toolbar.ql-snow:hover{
+  border-color: #0f6937;
+}
+.ql-container.ql-snow{
+  border-color: #0f6937;
+} */
+p img {
+  width: 100% !important;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.btnDetail {
+  color: white !important;
+  margin: 10px !important;
+  width: 9rem !important;
+  text-transform: none !important;
+}
+
+.blogContainer {
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+  margin: 16px 0;
+}
+
+@media (max-width: 1024px) {
+  .blogContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .userContainer {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .userButton {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 10px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .blogContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .privacyContainer {
+    margin-left: 0 !important;
+  }
+
+  .userContainer {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .userButton {
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 10px;
+  }
+}
+
+strong {
+  color: black;
+}
+
+.userDetail {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #F9FAFB);
+  background: var(--white, #fff);
+  /* shadow */
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+  color: #6B7280;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+}
+
+.userDetail:hover {
+  border: 1px solid #0F6937;
+  color: #000;
+}
+
+.userContainer {
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.workTitle {
+  color: var(--gray-900, #111928);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.pending_word {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.pending_container {
+  width: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.pending_cad {
+  height: 6px;
+  background-color: rgba(15, 105, 55, 0.1);
+  width: 45%;
+}
+.pending_color{
+  height: 6px;
+  background-color: rgba(15, 105, 55, 1);
+  width: 45%;
+}
+
+.work {
+  display: flex;
+  justify-content: space-between;
+  /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+  color: #6B7280;
+}
+
+.workLeft {
+  width: 24%;
+  text-align: center;
+}
+
+.workCenter {
+  width: 24%;
+  text-align: center;
+}
+
+.workCenterColor {
+  width: 24%;
+  text-align: center;
+  color: #0F6937;
+}
+
+.workRight {
+  width: 24%;
+  text-align: center;
+}
+
+.workRightColor {
+  width: 24%;
+  text-align: right;
+  color: #0F6937;
+}
+
+@media (max-width: 1024px) {
+  .workTitle {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .workTitle {
+    width: 100%;
+  }
+
+  .pending_word {
+    width: 220%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .work {
+    display: flex;
+    justify-content: space-between;
+    color: #6B7280;
+    width: 220%;
+  }
+
+  .workButton {
+    display: flex;
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    gap: 20px;
+    width: 220% !important;
+  }
+  .confirmUserButton{
+    justify-content: space-between;
+    display: grid;
+    grid-template-columns:  1fr !important;
+    width: 100%;
+  }
+
+  /* .workLeft{
+      width: 24%;
+      text-align: center;
+    }
+    .workCenter{
+      width: 24%;
+      text-align: center;
+    }
+    .workRight{
+      width: 24%;
+      text-align: center;
+    } */
+    .cardContentTitle{
+      height: auto;
+    }
+}
+
+.workButton {
+  display: flex;
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+.confirmUserButton{
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100%;
+  gap: 20px;
+}
+@media (min-width: 768px) {
+  #stylescroll::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(190, 181, 181, 0.3);
+    background-color: #f5f5f5;
+  }
+
+  #stylescroll::-webkit-scrollbar {
+    width: 4px;
+    height: 8px;
+    background-color: #f5f5f5;
+  }
+
+  #stylescroll::-webkit-scrollbar-thumb {
+    background-color: #afaeae;
+    border-radius: 4px;
+    /* border: 1px solid #555555; */
+  }
+}
+.userDetail{
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.confirmTitle{
+  text-align: center;
+  margin-block-start: 0 !important;
+  margin-block-end: 5px !important;
+}
+.cardContentTitle{
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  height: 15vh;
+}
+.cardContentHome{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cardContentDate{
+  display: flex;
+}
+/* @media (max-width: 1600) {
+  .cardContentTitle {
+    height: 15vh;
+  }
+} */
+.cardHome{
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns:  1fr;
+  width: 100%;
+}
+
+.slick-list{
+  padding-top: 15px !important;
+  padding-bottom: 15px !important;
+  padding-left: 5px !important;
+}
+
+
+.slick-list .slick-prev:before {
+  content: none;
+}
+
+.slick-list .slick-next:before {
+  content: none;
+}
+
+.slick-list .slick-dots li button:before {
+  font-size: 14px;
+  color: #435276;
+}
+.slick-list .slick-dots li.slick-active button:before {
+  font-size: 18px;
+  color: #D9D9D9;
+}

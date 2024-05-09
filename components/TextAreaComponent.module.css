@@ -1,0 +1,70 @@
+.signoffComponent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.signoffComponentTokens {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  margin-left: 40px;
+  gap: 5px;
+
+}
+
+.superscript {
+  border: 1px solid rgb(15, 105, 55);
+  padding: 5px 10px;
+  font-size: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.superscriptBottom {
+  display: flex;
+  align-items: center;
+  font-weight: 300;
+  gap: 5px;
+}
+
+.signoffTokens {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0px;
+  margin: 10px
+}
+
+@media screen and (max-width: 768px) {
+  .signoffComponent {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .signoffComponentTokens {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-top: 10px;
+  }
+  .signoffTokens {
+    margin-left: 0px;
+  }
+}
+
+.textarea {
+  width: 100%;
+  border: 1px solid rgb(209, 213, 219);
+  background: rgb(249, 250, 251);
+  border-radius: 6px;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  font-size: 16px;
+  font-family: Roboto, sans-serif;
+}

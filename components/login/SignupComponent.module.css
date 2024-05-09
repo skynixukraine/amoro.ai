@@ -1,0 +1,17 @@
+.container label {
+  font-size: 14px;
+  font-weight: 500;
+}
+.textGrey{
+  color: #666;
+}
+.textLink{
+  font-weight: 500;
+  color: #0f6937;
+  margin-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  .textPrivacy{
+    font-size: 11px;;
+  }
+}

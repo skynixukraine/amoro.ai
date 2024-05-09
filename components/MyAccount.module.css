@@ -1,0 +1,189 @@
+.container {
+  padding: 24px 32px;
+  background: var(--gray-50, #f9fafb);
+  max-width: calc(100vw - 64px);
+  /* max-width: 100vw; */
+}
+
+.container button {
+  text-transform: none;
+}
+
+.container h1 {
+  color: #111928;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.container h2 {
+  margin-top: 48px;
+  color: var(--gray-900, #111928);
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.userDataSection {
+  border-radius: var(--l, 16px);
+  border: 1px solid var(--gray-200, #F9FAFB);
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+  padding: 32px;
+  border-radius: 8px;
+  border: 1px solid var(--gray-200, #F9FAFB);
+  background: var(--white, #fff);
+  /* shadow */
+  box-shadow: 0px 1px 2px -1px rgba(0, 0, 0, 0.1),
+    0px 1px 3px 0px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin: 0 0 32px 0;
+
+  color: var(--gray-500, #6b7280);
+  /* text-2xl/font-semibold */
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+}
+
+.card p {
+  margin: 0;
+
+  color: var(--gray-900, #111928);
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 48px; /* 120% */
+}
+
+.cardAccount {
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) !important;
+  gap: 20px;
+  width: 100%;
+}
+.title_table{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(107, 114, 128, 1);
+  font-family: Inter;
+}
+.title_table_button{
+  font-size: 12px;
+  font-weight: 600;
+  color: rgba(107, 114, 128, 1);
+  font-family: Inter;
+  padding-left: 70px;
+}
+.text_table{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1);
+  font-family: Inter;
+}
+.number_page{
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(107, 114, 128, 1);
+  font-family: Inter;
+}
+.table_button{
+  width: 65px !important;
+  height: 34px;
+  padding: 8px, 16px, 8px, 16px;
+  border-radius: 8px;
+  gap: 8px;
+  background: rgba(15, 105, 55, 1);
+  font-size: 12px;
+  font-weight: 500;
+  font-family: Inter;
+  color:  rgba(255, 255, 255, 1);
+
+}
+.border_row{
+  border-top:1px solid rgba(0, 0, 0, 0.1) ;
+}
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding: 16px;
+    max-width: calc(100vw - 32px);
+  }
+
+  .container h1 {
+    font-size: 20px;
+  }
+
+  .container h2 {
+    margin-top: 16px;
+  }
+
+  /* .card {
+    margin: 10px 0;
+    width: 90%;
+  } */
+  .MuiBox-root {
+    display: flex !important;
+
+  }
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card p {
+    font-size: 32px;
+  }
+}
+.user {
+  border-radius: var(--l, 16px);
+  border: 1px solid var(--gray-200, #F9FAFB);
+  background: var(--white, #fff);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.1),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 1024px) {
+  .cardAccount {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .cardAccount {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}
+.userContainer{
+  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) !important;
+  gap: 20px;
+  width: 100%;
+}
+@media (max-width: 1024px) {
+  .userContainer {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .userContainer {
+    display: grid;
+    grid-template-columns: 1fr !important;
+  }
+}

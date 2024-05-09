@@ -1,0 +1,105 @@
+.card {
+  /* width: min(calc(400px - 3rem), calc(90vw - 3rem));
+  height: calc(400px - 1.5rem);
+   box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12); 
+  border-radius: 4px;
+  padding: 24px;
+  position: relative;
+  text-align: left;
+  margin: 6px 16px; */
+  border-radius: 8px;
+  /* height: calc(400px - 1.5rem); */
+  /* margin: 6px 16px;
+  padding: 24px; */
+  padding:  20px;
+  height: auto;
+  background-color: white;
+  box-shadow: 0px 2px 4px -2px rgba(0, 0, 0, 0.4);
+  margin-bottom: 24px;
+  cursor: pointer;
+}
+/* @media (max-width: 768px) {
+  .card {
+    margin-bottom: 34px;
+  }
+}  */
+.card img.image {
+  height: 192px;
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+.card h4 {
+  margin-block-start: 10px !important;
+  margin-block-end: 0 !important;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.card h4 p{
+  margin: 0;
+}
+.card h5 {
+  color: #6b7280;
+  margin-block-start: 10px !important;
+  margin-block-end: 10px !important;
+}
+.card h5 p{
+  margin: 0;
+}
+.blogCardFooter {
+  display: flex;
+  align-items: center;
+  gap:20px;
+}
+
+.blogCardFooter img {
+  height: auto;
+  width: 30px;
+}
+
+.blogCardFooter h6 {
+  color: #6b7280;
+  margin-block-start: 0 !important;
+  margin-block-end: 0 !important;
+}
+
+.blogCardFooter div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .img_content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+  .container_text{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  .card img.image {
+    border-radius: 8px;
+    object-fit: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .blogCardFooter img {
+    width: 34px !important;
+    height: auto !important;
+    object-fit: cover !important;
+  }
+}
+@media (max-width: 1024px) {
+  .blogCardFooter img {
+    height: 4vh;
+    width: 48px;
+  }
+}

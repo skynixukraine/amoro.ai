@@ -1,0 +1,10 @@
+.container label {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rememberMeLost {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

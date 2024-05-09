@@ -1,0 +1,25 @@
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonContainer {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 0px;
+  }
+}
+
+.container label {
+  font-size: 0.9rem;
+}
+
+.farButtons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}

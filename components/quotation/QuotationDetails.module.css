@@ -1,0 +1,132 @@
+.detailContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.detailCard {
+  width: min(640px, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.detailCard h2 {
+  color: var(--gray-900, #111928);
+  text-align: center;
+  /* leading-tight/text-4xl/font-extrabold */
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 125%; /* 45px */
+  letter-spacing: -0.36px;
+  margin: 24px 0;
+}
+
+.bankCard {
+  display: flex;
+  padding: var(--8, 32px);
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+
+  border-radius: 8px;
+  border: 1px solid var(--gray-300, #d1d5db);
+  background: var(--gray-50, #f9fafb);
+
+  margin-bottom: 24px;
+}
+
+.bankCard label {
+  margin: 0;
+
+  display: flex;
+  padding: var(--05, 2px) 16px;
+  align-items: center;
+  gap: var(--1, 4px);
+
+  border-radius: var(--rounded-md, 6px);
+
+  text-align: center;
+
+  /* text-sm/font-medium */
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 21px */
+}
+
+.errorText {
+  background: rgba(224, 36, 36, 0.1);
+  color: var(--red-600, #e02424) !important;
+}
+
+.successText {
+  background: rgba(15, 105, 55, 0.1);
+  color: #0f6937 !important;
+}
+.WaitingText{
+  background:   rgba(253, 246, 178, 1);
+  color: rgba(114, 59, 19, 1) !important;
+
+}
+.button_dowload{
+  width: 150px;
+  height: 45px;
+  color: rgba(15, 105, 55, 1);
+  border: 2px solid rgba(15, 105, 55, 1);
+  border-radius: 8px;
+  background-color: rgba(249, 250, 251, 1);
+  font-weight: 550;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+.textnumberBank{
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.bankCard p {
+  margin: 0;
+
+  color: var(--gray-500, #6b7280);
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+
+.bankAccountParagraph {
+  color: #0f6937;
+  text-align: center;
+
+  /* text-2xl/font-semibold */
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 36px */
+
+  margin: 0;
+}
+
+.table {
+  width: 100%;
+}
+
+.table div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 0;
+}
+
+.table hr {
+  margin: 0;
+  background: rgba(60, 66, 87, 0.12);
+}

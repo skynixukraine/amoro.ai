@@ -1,0 +1,21 @@
+.drawerContainer label {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 150%;
+  margin-bottom: 16px;
+}
+
+.iframeContainer {
+  max-width: 100vw !important;
+  display: flex;
+  flex-direction: column !important;
+  align-items: center;
+}
+
+.iframeContainer iframe {
+  border: 1px solid #d1d5db;
+  border-radius: 16px;
+  width: min(90vw, 800px);
+  height: 600px;
+  padding-top: 1rem;
+}

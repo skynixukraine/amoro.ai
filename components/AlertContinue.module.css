@@ -1,0 +1,67 @@
+.alertbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    background-color: white;
+    transition: all ease-in-out 0.6s;
+    justify-content: center;
+    gap: 8px;
+    padding: 30px 20px 10px 20px;
+    border-radius: 4px;
+    border: 2px solid #0f6937;
+}
+.alertprogress{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99;
+  background-color: white;
+  transition: all ease-in-out 0.6s;
+  justify-content: center;
+  padding: 10px 20px;
+  border-radius: 4px;
+  border: 2px solid #0f6937;
+}
+.progressbox{
+  width: 120px;
+  background-color: gray;
+  height: 40px;
+   border-radius: 10px;
+  margin: 10px;
+  position: relative;
+  color: rgba(255, 255, 255, 0.368);
+  display: flex;
+ justify-content: center;
+ align-items: center;  
+}
+.text{
+  color: white;
+}
+.alertbox .closebtn{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  border: none;
+  background: none;
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(102, 102, 102);
+}
+.alertbox .textbox{
+  font-size: 16px;
+    line-height: 24px;
+    padding: 0px 10px;
+    margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .alertbox {
+    margin-left: 10px;
+    margin-right: 10px;
+    left: 0%;
+    transform: translate(-0%, -50%);
+  }
+}

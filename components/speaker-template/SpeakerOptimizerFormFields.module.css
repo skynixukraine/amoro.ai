@@ -1,0 +1,33 @@
+.buttonContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.title_input {
+  font-size: 14px;
+  font-weight: 500;
+  color: rgba(17, 25, 40, 1);
+  font-family: 'Inter', sans-serif;
+  padding-top: 5px;
+
+}
+
+@media only screen and (max-width: 600px) {
+  .buttonContainer {
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.container label {
+  font-size: 0.9rem;
+}
+
+.farButtons {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+}
